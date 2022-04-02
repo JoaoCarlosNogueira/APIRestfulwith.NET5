@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\ProjetoRest\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
+      "projectUniqueName": "E:\\C#\\ProjetoRest\\APIRestfulwith.NET5\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
       "projectName": "RestWithASPNET5",
-      "projectPath": "E:\\C#\\ProjetoRest\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
+      "projectPath": "E:\\C#\\ProjetoRest\\APIRestfulwith.NET5\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
       "packagesPath": "C:\\Users\\João Carlos\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\ProjetoRest\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\obj\\",
+      "outputPath": "E:\\C#\\ProjetoRest\\APIRestfulwith.NET5\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\João Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",

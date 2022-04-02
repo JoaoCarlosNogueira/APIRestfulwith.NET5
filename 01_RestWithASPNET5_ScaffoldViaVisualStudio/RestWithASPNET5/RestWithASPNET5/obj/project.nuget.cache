@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UffAPDQlPFHtHXe5B0N/V2N5NQcztnsTAuO3Fp76j95hSZ4l7l7Nx2zmtjn3VUl4vMPEYp7aB/Xtq0yjg+EU4Q==",
+  "dgSpecHash": "N3eOXIj/gESIN36jwibrGwbjsmOb80nMBpKTNWjhujkdPWAtEUoxC/KfOD4VdroVlX5UF/O5xc9OFMPLdZTuaw==",
   "success": true,
-  "projectFilePath": "E:\\C#\\ProjetoRest\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
+  "projectFilePath": "E:\\C#\\ProjetoRest\\APIRestfulwith.NET5\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
