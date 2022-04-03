@@ -42,3 +42,13 @@ E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.pdb
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.genruntimeconfig.cache
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\ref\RestWithASPNET5.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\MySqlConnector.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Pomelo.JsonObject.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.csproj.CopyComplete
