@@ -8,12 +8,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using RestWithASPNET5.Model.Context;
-using RestWithASPNET5.Services;
-using RestWithASPNET5.Services.Implementations;
+using RestWithASPNET5.Business;
+using RestWithASPNET5.Business.Implementations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RestWithASPNET5.Repository;
+using RestWithASPNET5.Repository.Implementations;
 
 namespace RestWithASPNET5
 {
@@ -33,8 +35,13 @@ namespace RestWithASPNET5
             services.AddControllers();
             var connection = Configuration["MySQLConnetion:MySQLConnetionString"];
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connection));
+            
+            //Versioning API
+            services.AddApiVersioning();
+
             //Dependency Injection
-            services.AddScoped<IpersonService, PersonServiceImplementation>();
+            services.AddScoped<IpersonBusinees, PersonBusinessImplementation>();
+            services.AddScoped<IpersonRepository, PersonRepositoryImplementation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

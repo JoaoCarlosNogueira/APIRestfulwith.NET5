@@ -52,3 +52,5 @@ E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Pomelo.JsonObject.dll
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.csproj.CopyComplete
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.MvcApplicationPartsAssemblyInfo.cs

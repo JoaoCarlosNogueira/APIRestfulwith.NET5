@@ -1,26 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using RestWithASPNET5.Model;
-using RestWithASPNET5.Services;
+using RestWithASPNET5.Business;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace RestWithASPNET5.Controllers
-{
+{   [ApiVersion("1")]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/v{version:apiVersion}")]
     public class PersonController : ControllerBase
     {
 
         private readonly ILogger<PersonController> logger;
-        private IpersonService personService;
+        private IpersonBusinees personService;
 
-        public PersonController(ILogger<PersonController> _logger, IpersonService _ipersonService)
+        public PersonController(ILogger<PersonController> _logger, IpersonBusinees _ipersonBusinees)
         {
             logger = _logger;
-            personService = _ipersonService;
+            personService = _ipersonBusinees;
         }
 
         [HttpGet()]

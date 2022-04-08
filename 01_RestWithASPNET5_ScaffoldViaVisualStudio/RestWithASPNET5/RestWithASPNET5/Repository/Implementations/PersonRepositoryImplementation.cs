@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RestWithASPNET5.Services.Implementations
+namespace RestWithASPNET5.Repository.Implementations
 {
-    public class PersonServiceImplementation : IpersonService
+    public class PersonRepositoryImplementation : IpersonRepository
     {
         private MySQLContext context;
 
 
-        public PersonServiceImplementation(MySQLContext _context)
+        public PersonRepositoryImplementation(MySQLContext _context)
         {
             context = _context;
         }
@@ -41,7 +41,7 @@ namespace RestWithASPNET5.Services.Implementations
 
         public Person Update(Person person)
         {
-            if (!exists(person.Id)) return new Person();
+            if (!Exists(person.Id)) return new Person();
             var result = context.People.SingleOrDefault(p => p.Id.Equals(person.Id));
 
             if (result != null)
@@ -74,12 +74,14 @@ namespace RestWithASPNET5.Services.Implementations
                     throw;
                 }
             }
-        }
+        } 
 
-        private bool exists(long id)
+        public bool Exists(long id)
         {
 
             return context.People.Any((p => p.Id.Equals(id)));
         }
+
+      
     }
 }

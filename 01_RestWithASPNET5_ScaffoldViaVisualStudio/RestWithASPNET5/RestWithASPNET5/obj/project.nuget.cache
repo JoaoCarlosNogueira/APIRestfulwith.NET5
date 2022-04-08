@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tv7YXqIugwhaxKCU14vjXytlBduvSlthQyDeBsXjOTX0OL90UAzKL88lpg+skVz0tuDXcJtkyKCPT2k0HRksDA==",
+  "dgSpecHash": "VUkK9howDlHiCe+cwNITuTwVjx8dyohS8maCDTM2qzgR5jIvg/nVWt6hcy9LX0u3G9TGwltXMWnMjiMTkmZQHA==",
   "success": true,
   "projectFilePath": "E:\\C#\\ProjetoRest\\APIRestfulwith.NET5\\01_RestWithASPNET5_ScaffoldViaVisualStudio\\RestWithASPNET5\\RestWithASPNET5\\RestWithASPNET5.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\João Carlos\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\João Carlos\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\João Carlos\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\João Carlos\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
