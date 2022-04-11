@@ -54,3 +54,14 @@ E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.csproj.CopyComplete
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\obj\Debug\net5.0\RestWithASPNET5.MvcApplicationPartsAssemblyInfo.cs
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Evolve.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.AspNetCore.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+E:\C#\ProjetoRest\APIRestfulwith.NET5\01_RestWithASPNET5_ScaffoldViaVisualStudio\RestWithASPNET5\RestWithASPNET5\bin\Debug\net5.0\Serilog.Sinks.File.dll

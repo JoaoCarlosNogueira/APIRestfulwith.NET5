@@ -15,9 +15,9 @@ namespace RestWithASPNET5.Controllers
     {
 
         private readonly ILogger<PersonController> logger;
-        private IpersonBusinees personService;
+        private IpersonBusiness personService;
 
-        public PersonController(ILogger<PersonController> _logger, IpersonBusinees _ipersonBusinees)
+        public PersonController(ILogger<PersonController> _logger, IpersonBusiness _ipersonBusinees)
         {
             logger = _logger;
             personService = _ipersonBusinees;

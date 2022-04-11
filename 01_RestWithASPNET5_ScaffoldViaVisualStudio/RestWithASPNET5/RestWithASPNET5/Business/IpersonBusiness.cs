@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace RestWithASPNET5.Business
 {
-    public interface IpersonBusinees
+    public interface IpersonBusiness
     {
         Person Create(Person person);
         Person Update(Person person);
