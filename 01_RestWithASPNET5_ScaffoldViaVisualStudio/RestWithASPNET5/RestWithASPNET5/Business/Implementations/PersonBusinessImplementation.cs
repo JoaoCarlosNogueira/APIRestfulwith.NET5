@@ -1,20 +1,17 @@
 ﻿using RestWithASPNET5.Model;
-using RestWithASPNET5.Model.Context;
 using RestWithASPNET5.Repository;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace RestWithASPNET5.Business.Implementations
 {
     public class PersonBusinessImplementation : IpersonBusiness
     {
-        private IpersonRepository _repository;
+        private IRepository<Person> _repository;
 
 
-        public PersonBusinessImplementation(IpersonRepository _repository)
+        public PersonBusinessImplementation(IRepository<Person> repository)
         {
-            this._repository = _repository;
+            _repository = repository;
         }
 
         public List<Person> FindAll()

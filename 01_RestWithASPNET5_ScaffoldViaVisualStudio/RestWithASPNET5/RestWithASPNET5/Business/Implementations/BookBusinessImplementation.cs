@@ -7,36 +7,36 @@ namespace RestWithASPNET5.Business.Implementations
     public class BookBusinessImplementation : IbookBusiness
     
     {
-        public IbookRepository _ibookRepository;
+        public readonly IRepository<Book> _repository;
 
-        public BookBusinessImplementation(IbookRepository ibookRepository)
+        public BookBusinessImplementation(IRepository<Book> repository)
         {
-            _ibookRepository = ibookRepository;
+           _repository = repository;
         }
 
         public Book Create(Book book)
         {
-           return _ibookRepository.Create(book);
+           return _repository.Create(book);
         }
 
         public void Delete(long id)
         {
-             _ibookRepository.Delete(id);
+             _repository.Delete(id);
         }
 
         public List<Book> FindAll()
         {
-             return _ibookRepository.FindAll();
+             return _repository.FindAll();
         }
 
         public Book FindById(long id)
         {
-            return _ibookRepository.FindById(id);
+            return _repository.FindById(id);
         }
 
         public Book Update(Book book)
         {
-           return _ibookRepository.Update(book);
+           return _repository.Update(book);
         }
     }
 }

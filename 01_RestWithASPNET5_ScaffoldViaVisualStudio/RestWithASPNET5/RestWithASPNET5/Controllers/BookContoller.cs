@@ -49,7 +49,7 @@ namespace RestWithASPNET5.Controllers
 
         }
 
-        [HttpPut()]
+        [HttpPut("")]
         public IActionResult Put([FromBody] Book book)
         {
             if (book == null)

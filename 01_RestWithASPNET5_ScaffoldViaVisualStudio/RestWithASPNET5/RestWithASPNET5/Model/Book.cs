@@ -1,14 +1,12 @@
-﻿using System;
+﻿using RestWithASPNET5.Model.Base;
+using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RestWithASPNET5.Model
 {
-    [Table("books")]
-    public class Book
+    [Table("books")] 
+    public class Book : BaseEntity
     {
-        [Column("id")]
-        public int Id { get; set; }
-
         [Column("author")]
         public string Author { get; set; }
 
