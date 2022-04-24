@@ -17,7 +17,5 @@ namespace RestWithASPNET5.Model
         [Column("price")]
         public double Price { get; set; }
 
-
-
     }
 }
