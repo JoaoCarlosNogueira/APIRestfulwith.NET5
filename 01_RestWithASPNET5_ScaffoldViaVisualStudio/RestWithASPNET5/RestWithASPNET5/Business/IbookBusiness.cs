@@ -1,14 +1,15 @@
-﻿using RestWithASPNET5.Model;
+﻿using RestWithASPNET5.Data.VO;
+using RestWithASPNET5.Model;
 using System.Collections.Generic;
 
 namespace RestWithASPNET5.Business.Implementations
 {
     public interface IbookBusiness
     {
-        Book Create(Book book);
-        Book Update(Book book);
+        BookVO Create(BookVO bookVO);
+        BookVO Update(BookVO bookVo);
         void Delete(long id);
-        Book FindById(long id);
-        List<Book> FindAll();
+        BookVO FindById(long id);
+        List<BookVO> FindAll();
     }
 }

@@ -36,7 +36,7 @@ namespace RestWithASPNET5.Business.Implementations
 
         public void Delete(long id)
         {
-            throw new System.NotImplementedException();
+            _repository.Delete(id);
         }
 
         public PersonVO FindById(long id)
