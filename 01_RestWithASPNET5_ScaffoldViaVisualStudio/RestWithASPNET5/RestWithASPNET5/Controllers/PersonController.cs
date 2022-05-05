@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using RestWithASPNET5.Data.VO;
+using RestWithASPNET5.Hypermedia.Filters;
 
 namespace RestWithASPNET5.Controllers
 {   [ApiVersion("1")]
@@ -25,6 +26,7 @@ namespace RestWithASPNET5.Controllers
         }
 
         [HttpGet()]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get()
         {
 
@@ -32,6 +34,7 @@ namespace RestWithASPNET5.Controllers
         }
 
         [HttpGet("{id}")]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get(long id)
         {
             var person = personService.FindById(id);
@@ -44,6 +47,7 @@ namespace RestWithASPNET5.Controllers
         }
 
         [HttpPost()]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Post([FromBody] PersonVO person)
         {
             if (person == null)
@@ -55,6 +59,7 @@ namespace RestWithASPNET5.Controllers
         }
 
         [HttpPut()]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Put([FromBody] PersonVO person)
         {
             if (person == null)
